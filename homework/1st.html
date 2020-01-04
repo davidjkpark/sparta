@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- 합쳐지고 최소화된 최신 CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- 부가적인 테마 -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<title>Page Title</title>
+	<style type="text/css">
+		.wrap {
+			margin: auto;
+			width: 800px;
+		}
+
+		.productimg{
+			margin: auto;
+		}
+
+		.form-group {
+			width: 800px;
+		}
+
+		.ver-align {
+			float: left;
+		}
+
+		.text {
+			float: left;
+			position: relative;
+			font-size: 30px;
+		}
+
+		.price {
+			position: relative;
+			bottom: 0;
+			left: 0;
+			font-size: 20px;
+		}
+
+
+		.ordering {
+			font-size: 30px;
+		}
+
+
+		.buttonform {
+			width: 400px;
+			margin: auto;
+		}
+	</style>
+
+<!-- 
+    #div1{
+        float:left;
+    }
+   
+    #div2 {
+        float:left;
+        position: relative;
+    }
+   
+    #div3 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+</style>
+ 
+<div id="div1">
+    <img src="https://www.google.co.kr/images/srpr/logo11w.png">
+</div>
+<div id="div2">
+    <div id="div3">text</div>
+</div>
+ -->
+
+
+
+</head>
+<body>
+	<div class="wrap">
+		<div class="productimg">
+			<img src="https://t1.daumcdn.net/cfile/tistory/99E9364A5B7549F930">
+		</div>
+		<div class="ver-align">
+			<div class="text">상품제목</div>  
+			<div class="price">가격 : 300,000원</div>
+			<br>
+			단순히 책을 읽기만 하는 모임은 그만. 읽고 그것을 실행하지 않는다면 그것이 과연 의미있는 책읽기일까. 읽고 실행하는 읽고 해봐 프로그램에 도전해보는 것은 어떨까?
+		</div>
+
+		<p>
+		<div class="ordering">
+			주문하기
+		</div>			
+		</p>
+
+		<p>
+			<div>
+			<form class="form-horizontal">
+			  <div class="form-group">
+			    <label for="inputEmail3" class="col-sm-2 control-label">주문자성함</label>
+			    <div class="col-sm-10">
+			    	<input type="text" class="form-control" placeholder="성함을 알려주세요">
+			    </div>
+			  </div>
+
+			  <div class="form-group">
+			    <label for="inputEmail3" class="col-sm-2 control-label">수량</label>
+			    <div class="col-sm-10">
+			    	<!-- <input type="text" class="form-control" placeholder="Text input"> -->
+			    	<select class="form-control">
+					  <option>1</option>
+					  <option>2</option>
+					  <option>3</option>
+					  <option>4</option>
+					  <option>5</option>
+					</select>
+			    </div>
+			  </div>
+
+			  <div class="form-group">
+			    <label for="inputEmail3" class="col-sm-2 control-label">주소</label>
+			    <div class="col-sm-10">
+			    	<input type="text" class="form-control" placeholder="주소를 알려주세요">
+			    </div>
+			  </div>
+
+			  <div class="form-group">
+			    <label for="inputEmail3" class="col-sm-2 control-label">전화번호</label>
+			    <div class="col-sm-10">
+			    	<input type="text" class="form-control" placeholder="전화번호를 입력해주세요">
+			    </div>
+			  </div>
+
+			  <div class="form-group">
+			  	<div class="buttonform">
+				  <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+			  	</div>
+
+			  </div>
+			</form>
+			</div>
+		</p>			
+
+	</div>
+</body>
+</html>
