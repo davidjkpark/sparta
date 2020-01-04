@@ -9,95 +9,75 @@
 
 	<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-	<title>Page Title</title>
+	<title>박진규의 페이지</title>
+
 	<style type="text/css">
 		.wrap {
+			width: 600px;
 			margin: auto;
-			width: 800px;
 		}
 
 		.productimg{
 			margin: auto;
+			text-align: center;
 		}
 
-		.form-group {
-			width: 800px;
-		}
-
-		.ver-align {
+		.productprice {
 			float: left;
 		}
 
 		.text {
-			float: left;
-			position: relative;
-			font-size: 35px;
+			font-size: 30px;
 		}
 
 		.price {
-			position: relative;
-			bottom: 0;
-			left: 0;
 			font-size: 20px;
+			position: relative; bottom: 0px;
+/*			margin-top: 13px;*/
+			margin: 13px 0 0 20px;
 		}
 
+		.descriptions {
+			text-align: left;
+			clear: both;
+		}
 
 		.ordering {
-			font-size: 35px;
+			font-size: 30px;
 		}
 
+		.form-group {
+			width: 600px;
+		}
 
 		.buttonform {
-			width: 400px;
+			width: 350px;
 			margin: auto;
 		}
+
 	</style>
-
-<!-- 
-    #div1{
-        float:left;
-    }
-   
-    #div2 {
-        float:left;
-        position: relative;
-    }
-   
-    #div3 {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-    }
-</style>
- 
-<div id="div1">
-    <img src="https://www.google.co.kr/images/srpr/logo11w.png">
-</div>
-<div id="div2">
-    <div id="div3">text</div>
-</div>
- -->
-
-
-
 </head>
+
 <body>
 	<div class="wrap">
 		<div class="productimg">
-			<img src="https://t1.daumcdn.net/cfile/tistory/99E9364A5B7549F930">
-		</div>
-		<div class="ver-align">
-			<div class="text">상품제목</div>  
-			<div class="price">가격 : 300,000원</div>
-			<br>
-			단순히 책을 읽기만 하는 모임은 그만. 읽고 그것을 실행하지 않는다면 그것이 과연 의미있는 책읽기일까. 읽고 실행하는 읽고 해봐 프로그램에 도전해보는 것은 어떨까?
+			<img src="https://t1.daumcdn.net/cfile/tistory/99E9364A5B7549F930", width="600px", align="center">
 		</div>
 
+		<div>
+			<div class="text productprice">상품제목</div>  
+			<div class="price productprice">가격 : 300,000원</div>
+		</div>
+		
 		<p>
+		<div class="descriptions">
+			단순히 책을 읽기만 하는 모임은 그만. 읽고 그것을 실행하지 않는다면 그것이 과연 의미있는 책읽기일까. 읽고 실행하는 읽고 해봐 프로그램에 도전해보는 것은 어떨까?	
+		</div>			
+		</p>
+
 		<div class="ordering">
 			주문하기
 		</div>			
-		</p>
 
 		<p>
 			<div>
@@ -119,6 +99,10 @@
 					  <option>3</option>
 					  <option>4</option>
 					  <option>5</option>
+					  <option>6</option>
+					  <option>7</option>
+					  <option>8</option>
+					  <option>9</option>
 					</select>
 			    </div>
 			  </div>
@@ -139,7 +123,7 @@
 
 			  <div class="form-group">
 			  	<div class="buttonform">
-				  <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+				  <button type="button" class="btn btn-primary btn-lg btn-block">신청하기</button>
 			  	</div>
 
 			  </div>
