@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+
+		function openclose(){
+			// id 값 posting-box의 display 값이 block 이면
+		    if ( $('#posting-box').css('display') == 'block' ) {
+			// posting-box를 가리고
+		      $('#posting-box').hide();
+		      $('#btn-posting-box').text("포스팅 박스 열기")
+		    } else {
+			// 아니면 posting-box를 펴라
+		      $('#posting-box').show();
+  		      $('#btn-posting-box').text("포스팅 박스 닫기")	
+		    }
+
+		}
+
+	</script>
+
+	<style type="text/css">
+		#posting-box {
+			display: none;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<button id="btn-posting-box" onclick="openclose()" type="button" class="btn btn-primary">포스팅 박스 열기</button>
+
+	<div id="posting-box" class="form-post">
+	  <form>
+	    <div class="form-group">
+	      <label for="exampleFormControlInput1">아티클 URL</label>
+	      <input id="posting-url" class="form-control" placeholder="">
+	    </div>
+	    <div class="form-group">
+	      <label for="exampleFormControlTextarea1">간단 코멘트</label>
+	      <input id="posting-comment" class="form-control" placeholder="">
+	    </div>
+	    <button onclick="posting()" type="button" class="btn btn-primary">기사저장</button>
+	  </form>
+	</div>
+
+
+</body>
+</html>

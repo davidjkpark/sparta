@@ -2,8 +2,37 @@
 <html>
 <head>
 	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
 </head>
 <body>
+
+	<div id= "posting-box" class="form-post">
+	    <form>
+	      <div class="form-group">
+	        <label for="exampleFormControlInput1">아티클 URL</label>
+	        <input id="posting-url" class="form-control" placeholder="">
+	      </div>
+	      <div class="form-group">
+	        <label for="exampleFormControlTextarea1">간단 코멘트</label>
+	        <input class="form-control" placeholder="">
+	      </div>
+	      <button id="btn-posting-box" type="button" class="btn btn-primary">기사저장</button>
+	    </form>
+	 </div>
+
+<!-- 	 // 사이에 html을 넣고 싶은 태그에 id값을 준 다음 -->
+	<div id="cards-box" class="card-columns card-post">
+	    <div class="card">
+	      <img class="card-img-top" src="https://www.fodors.com/wp-content/uploads/2018/10/4_UltimateRome_PiazzaNavona-975x650.jpg" alt="Card image cap">
+	      <div class="card-body">
+	        <h5 class="card-title">예를 들면 이렇게 카드가 나옵니다!!</h5>
+	        <p class="card-text">여기에 기사 내용이 들어가겠죠</p>
+	        <p class="card-text comment">여기엔 코멘트가 들어갑니다</p>
+	      </div>
+	    </div>
+	</div>
 
 </body>
 </html>

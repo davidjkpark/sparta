@@ -1,0 +1,43 @@
+		.wrap {
+			width: 600px;
+			margin: auto;
+		}
+
+		.productimg{
+			margin: auto;
+			text-align: center;
+		}
+
+		.productprice {
+			float: left;
+		}
+
+		.text {
+			font-size: 30px;
+		}
+
+		.price {
+			font-size: 20px;
+			position: relative; bottom: 0px;
+/*			margin-top: 13px;*/
+			margin: 13px 0 0 20px;
+		}
+
+		.descriptions {
+			text-align: left;
+			clear: both;
+		}
+
+		.ordering {
+			font-size: 30px;
+		}
+
+		.form-group {
+			width: 600px;
+		}
+
+		.buttonform {
+			width: 350px;
+			margin: auto;
+		}
+

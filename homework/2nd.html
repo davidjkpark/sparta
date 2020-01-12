@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- 합쳐지고 최소화된 최신 CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- 부가적인 테마 -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<title>박진규의 페이지</title>
+
+	<link rel = "stylesheet" type = "text/css" href = "1st_css.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<style type="text/css">
+	</style>
+
+	<script type="text/javascript">
+
+		function blankcheck (){
+        let txt = $('#blankcheck').val();
+        if(txt == ''){
+          alert('입력하세요!!');
+		}
+		}
+	</script>
+	
+
+
+</head>
+
+<body>
+	<div class="wrap">
+		<div class="productimg">
+			<img src="https://t1.daumcdn.net/cfile/tistory/99E9364A5B7549F930", width="600px", align="center">
+		</div>
+
+		<div>
+			<div class="text productprice">상품제목</div>  
+			<div class="price productprice">가격 : 300,000원</div>
+		</div>
+		
+		<p>
+		<div class="descriptions">
+			단순히 책을 읽기만 하는 모임은 그만. 읽고 그것을 실행하지 않는다면 그것이 과연 의미있는 책읽기일까. 읽고 실행하는 읽고 해봐 프로그램에 도전해보는 것은 어떨까?	
+		</div>			
+		</p>
+
+		<div class="ordering">
+			주문하기
+		</div>			
+
+		<p>
+			<div>
+			<form class="form-horizontal">
+			  <div class="form-group">
+			    <label for="inputEmail3" class="col-sm-2 control-label">주문자성함</label>
+			    <div class="col-sm-10">
+			    	<input id="blankcheck" type="text" class="form-control" placeholder="성함을 알려주세요">
+			    </div>
+			  </div>
+
+			  <div class="form-group">
+			    <label for="inputEmail3" class="col-sm-2 control-label">수량</label>
+			    <div class="col-sm-10">
+			    	<!-- <input type="text" class="form-control" placeholder="Text input"> -->
+			    	<select class="form-control">
+					  <option>1</option>
+					  <option>2</option>
+					  <option>3</option>
+					  <option>4</option>
+					  <option>5</option>
+					  <option>6</option>
+					  <option>7</option>
+					  <option>8</option>
+					  <option>9</option>
+					</select>
+			    </div>
+			  </div>
+
+			  <div class="form-group">
+			    <label for="inputEmail3" class="col-sm-2 control-label">주소</label>
+			    <div class="col-sm-10">
+			    	<input type="text" class="form-control" placeholder="주소를 알려주세요">
+			    </div>
+			  </div>
+
+			  <div class="form-group">
+			    <label for="inputEmail3" class="col-sm-2 control-label">전화번호</label>
+			    <div class="col-sm-10">
+			    	<input type="text" class="form-control" placeholder="전화번호를 입력해주세요">
+			    </div>
+			  </div>
+
+			  <div class="form-group">
+			  	<div class="buttonform">
+				  <button type="button" class="btn btn-primary btn-lg btn-block" onclick="blankcheck()">신청하기</button>
+			  	</div>
+
+			  </div>
+			</form>
+			</div>
+		</p>			
+
+	</div>
+</body>
+</html>
