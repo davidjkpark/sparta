@@ -33,13 +33,3 @@ for music in musics:
         db.musics.insert_one(doc)
         rank += 1
 
-
-
-
-
-# MongoDB에 insert 하기
-#
-# # 'users'라는 collection에 {'name':'bobby','age':21}를 넣습니다.
-# db.test.insert_one({'name':'bobby','age':21})
-# db.test.insert_one({'name':'kay','age':27})
-# db.test.insert_one({'name':'john','age':30})
