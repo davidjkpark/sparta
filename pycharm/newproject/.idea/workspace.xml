@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="653707e5-efc0-4038-868d-d9c8e941edae" name="Default Changelist" comment="" />
+    <list default="true" id="653707e5-efc0-4038-868d-d9c8e941edae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../db_example/genie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask_example/.idea/flask_example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask_example/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask_example/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask_example/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask_homework/.idea/flask_homework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask_homework/geni.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask_homework/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask_homework/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_example/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_example/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work1_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,9 +46,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
   </component>
-  <component name="RunManager">
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.work4">
+    <configuration name="work1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="newproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -40,7 +62,91 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="work1_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="newproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work1_1" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="work2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="newproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="work3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="newproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="work4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="newproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -51,7 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.work4" />
+        <item itemvalue="Python.work3" />
+        <item itemvalue="Python.work1_1" />
+        <item itemvalue="Python.work2" />
+        <item itemvalue="Python.work1" />
       </list>
     </recent_temporary>
   </component>
@@ -81,22 +191,46 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="629" height="212" key="GridCell.Tab.0.bottom" timestamp="1579394774994">
+    <state x="372" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580531341217">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="629" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1579394774994" />
-    <state width="629" height="212" key="GridCell.Tab.0.center" timestamp="1579394774993">
+    <state x="372" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1580531341217" />
+    <state width="629" height="212" key="GridCell.Tab.0.bottom" timestamp="1580534651949">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="629" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1579394774993" />
-    <state width="629" height="212" key="GridCell.Tab.0.left" timestamp="1579394774992">
+    <state width="629" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1580534651949" />
+    <state width="629" height="212" key="GridCell.Tab.0.center" timestamp="1580534651947">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="629" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1579394774992" />
-    <state width="629" height="212" key="GridCell.Tab.0.right" timestamp="1579394774993">
+    <state width="629" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1580534651947" />
+    <state width="629" height="212" key="GridCell.Tab.0.left" timestamp="1580534651946">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="629" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1579394774993" />
+    <state width="629" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1580534651946" />
+    <state width="629" height="212" key="GridCell.Tab.0.right" timestamp="1580534651948">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="629" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1580534651948" />
+    <state width="629" height="263" key="GridCell.Tab.1.bottom" timestamp="1580531780979">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="629" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1580531780979" />
+    <state width="629" height="263" key="GridCell.Tab.1.center" timestamp="1580531780977">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="629" height="263" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1580531780977" />
+    <state width="629" height="263" key="GridCell.Tab.1.left" timestamp="1580531780976">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="629" height="263" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1580531780976" />
+    <state width="629" height="263" key="GridCell.Tab.1.right" timestamp="1580531780978">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="629" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1580531780978" />
+    <state x="319" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1580530878506">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="319" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1580530878506" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1579331968606">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
